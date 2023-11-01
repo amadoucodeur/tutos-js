@@ -179,6 +179,7 @@ class Str {
   }
 }
 
-const str = new Str("Cool col bien ZZRTYUIFD");
-console.log(str.subsrting(10, 2));
+// const str = new Str("Cool col bien ZZRTYUIFD");
+// console.log(str.subsrting(10, 2));
 // console.log(Str.BASE_LOWER_CASE)
+
