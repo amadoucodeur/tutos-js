@@ -14,6 +14,6 @@ map.delete(1)
 // const kv = map.entries()
 // console.log(kv.next().value) // [v, k]
 
-map.forEach((v, k)=>{
-    console.log(k," : ",v)
-})
+// map.forEach((v, k)=>{
+//     console.log(k," : ",v)
+// })
