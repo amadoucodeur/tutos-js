@@ -55,7 +55,7 @@ class MySet {
 
   has(val) {
     return this.props.includes(val);
-  }
+  } 
 
   next(){
     return this.props.at(this.cusor) 
