@@ -58,7 +58,7 @@ class MySet {
   }
 
   next(){
-    return this.props.at(this.cusor)
+    return this.props.at(this.cusor) 
   }
 }
 
