@@ -1,5 +1,5 @@
 const map = new Map()
-map.set(1,"111")
+map.set(1, "111")
 map.set(2, "111");
 map.set(3, "111");
 map.set(4, "111");
@@ -17,3 +17,6 @@ map.delete(1)
 // map.forEach((v, k)=>{
 //     console.log(k," : ",v)
 // })
+
+const np = new Map()
+console.log(np)
