@@ -1,13 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Todo</title>
   </head>
   <body>
-    <h1 id="idd">Cou-cou</h1>
-    <button>click</button>
-    <script src="asynchrone.js"></script>
+    <article>
+      <header>
+        <nav>
+          <ul></ul>
+          <h1>Todo</h1>
+          <ul></ul>
+        </nav>
+        <div class="grid">
+          <input type="text" placeholder="Entrez la tache" id="field" />
+          <button id="add">Ajout</button>
+        </div>
+      </header>
+      <div class="container" id="container">
+        <div class="grid taskline">
+          <h4>Manger bien</h4>
+          <button>Modif</button>
+          <button class="secondary">X</button>
+        </div>
+        
+      </div>
+    </article>
+    <script src="main.js"></script>
   </body>
 </html>
